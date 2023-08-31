@@ -7,11 +7,11 @@
 ## 使用方法
 ### AMD
 ```bash
-wget https://raw.githubusercontent.com/Alano-i/lookbusy-docker/main/lookbusy -O lookbusy && chmod +x lookbusy&&./lookbusy -c 15-20 -r curve
+wget https://raw.githubusercontent.com/Alano-i/lookbusy-docker/main/lookbusy -O lookbusy && chmod +x lookbusy&&./lookbusy -c 15-20 -r curve &
 ```
 ### ARM
 ```bash
-wget https://raw.githubusercontent.com/Alano-i/lookbusy-docker/main/lookbusy-arm -O lookbusy && chmod +x lookbusy&&./lookbusy -c 35-40 -r curve -n 2 -m 2048MB -M 1000
+wget https://raw.githubusercontent.com/Alano-i/lookbusy-docker/main/lookbusy-arm -O lookbusy && chmod +x lookbusy&&./lookbusy -c 35-40 -r curve -n 2 -m 2048MB -M 1000 &
 ```
 
 ### 构建镜像
